@@ -1,0 +1,45 @@
+.Header-logo-box{
+  height: 90%;
+}
+
+.Header-logo {
+    pointer-events: none;
+    height: 100%;
+  }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .Header-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header{
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:white;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: height 1s;
+  height: 150px;
+}
+
+
+  
+
+
+
+
+
+

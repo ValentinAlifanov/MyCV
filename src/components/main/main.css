@@ -1,0 +1,45 @@
+.main {
+    padding-top: 250px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__foto-box {
+    width: 400px;
+    height: 400px;
+
+}
+
+.main__foto 
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.main__profession{
+    padding-top: 50px;
+    color:white;
+    font-size: 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__stack{
+    padding-top: 50px;
+    color:white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
