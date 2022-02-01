@@ -1,0 +1,14 @@
+.nav-ul__box {
+    position: absolute;
+    right: 0;
+    width: 25%;
+}
+    
+.nav-ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+

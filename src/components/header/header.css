@@ -1,32 +1,9 @@
-.Header-logo-box{
-  height: 90%;
-}
-
-.Header-logo {
-    pointer-events: none;
-    height: 100%;
-  }
-  
-@media (prefers-reduced-motion: no-preference) {
-    .Header-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 header{
   background-color: #282c34;
   display: flex;
   align-items: center;
   text-align: center;
-  color:white;
   width: 100%;
   position: fixed;
   left: 0;
@@ -35,6 +12,15 @@ header{
   height: 150px;
 }
 
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently  not supported by any browser */
+}
 
   
 

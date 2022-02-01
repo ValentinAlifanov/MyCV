@@ -1,9 +1,9 @@
 import * as React from 'react';
-import './about-me.css';
+import './about-me-career.css';
 
-export default function AboutMe() {
+export default function AboutMeСareer() {
     return(
-        <div className='AboutMe-box'>
+        <section id='about-me' className='AboutMe-box-career'>
             <p>
                 Добрый день и добро пожаловать на мою страницу!
                 Меня зовут Валентин, мне 29 лет и я начинающий Frontend Developer.
@@ -19,6 +19,7 @@ export default function AboutMe() {
                 В конце 2021 года я окончил курс "Основы программирования С++" в "Южной школе программирования", где познакомился с С++ и GIT, и решил попробовать свои силы во Frontend разработке. 
                 Одновременно с курсом начал изучение английского языка (One by One). Могу разобраться с технической документацией к популярным библиотекам и найти решение на Stack Overflow или аналогичных ресурсах.
             </p>    
-        </div>
+        </section>
     )
 }
+

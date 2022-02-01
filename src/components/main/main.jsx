@@ -8,8 +8,8 @@ import HrLine from './main-hr/main-hr'
 export default function Main(){
     return(
         <div className='main' style={{ backgroundImage: "url(" + BackGroundImg +")" }}>
-            <div className='main__foto-box'>
-                <input type="image" img='true' className='main__foto' src={Photo} alt="photo"></input>          
+            <div className='main__Photo-box unselectable'>
+                <input type="image" img='true' className='main__Photo' src={Photo} alt="photo"></input>          
             </div>
             <div >
                 <div className='main__profession'>Junior frontend developer
