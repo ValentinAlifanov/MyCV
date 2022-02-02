@@ -6,6 +6,7 @@ import Contacts from './components/contacts/contacts'
 import { StyledEngineProvider } from '@mui/material/styles';
 import './App.css';
 import AboutMeRouter from './components/about-me-router/about-me-router';
+import Projects from './components/projects-box/projects-box'
 
 
 
